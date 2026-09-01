@@ -1,5 +1,5 @@
 ---
-name: shortterm-mean-reversal-lavine-version
+name: shortterm-mean-reversal
 description: "Run and audit the Q58 five-session cross-sectional short-term return reversal factor on A-shares. Use when an agent needs 5-day loser-versus-winner signals, point-in-time factor snapshots, or a cost-aware mean-reversion research backtest."
 quantSkills:
   organization: https://github.com/lavine888
