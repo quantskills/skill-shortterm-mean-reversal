@@ -76,7 +76,7 @@ flowchart LR
 
 ## Real Validation
 
-The live-data run used `panda_data 0.0.12` and completed against the full Shanghai/Shenzhen universe. Raw provider outputs are deliberately excluded from Git; the report preserves their hashes, counts and conclusions.
+The live-data run used `panda_data 1.0.6` and completed against the full Shanghai/Shenzhen universe. Raw provider outputs are deliberately excluded from Git; the report preserves their hashes, counts and conclusions.
 
 | Check | Observed result |
 |---|---:|
@@ -251,3 +251,6 @@ See [ROADMAP.md](./ROADMAP.md) for delisting settlement evidence, short-leg exec
 ## License
 
 [GNU General Public License v3.0](./LICENSE)
+
+
+Pandadata compatibility maintenance: [abgyjaguo](https://github.com/abgyjaguo). Existing authorship is retained.

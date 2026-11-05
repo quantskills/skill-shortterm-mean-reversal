@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "GPL-3.0-only"}
 dependencies = [
-  "panda_data==0.0.12",
+  "panda_data==1.0.6",
   "pandas>=2.0,<4",
   "numpy>=1.24,<3",
   "pyarrow>=14,<26",
