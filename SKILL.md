@@ -111,3 +111,7 @@ Use `scripts/summarize.py` only after `scripts/validate.py` passes. `last_availa
 The long-short portfolio is a factor research diagnostic, not a directly executable A-share cash-equity strategy. A-shares cannot generally be shorted; borrow availability, fees, recall, queue priority, intraday slippage and forced delisting outcomes are only partially modeled. Daily limit-up/limit-down closes block directionally impossible actions but do not prove an executable fill away from the limit. A `borrowable` column and `delisting_settlement_price` improve the model but remain data-driven inputs the user must source and verify. Do not describe demo or backtest output as live performance or investment advice.
 
 Read `references/methodology.md` and `references/data_guide.md` before interpreting results.
+
+## Pandadata compatibility
+
+[Pandadata 1.0.6 compatibility](references/pandadata-compatibility.md) — exact SDK baseline, validation scope, and shared guidance for all supported agent runtimes.

@@ -76,7 +76,7 @@ flowchart LR
 
 ## 真实验证
 
-真实数据运行使用 `panda_data 0.0.12` 并覆盖完整沪深股票池。原始供应商输出不会进入 Git；验证报告保留其哈希、数量和结论。
+真实数据运行使用 `panda_data 1.0.6` 并覆盖完整沪深股票池。原始供应商输出不会进入 Git；验证报告保留其哈希、数量和结论。
 
 <table>
 <tr><th>检查项</th><th>实测结果</th></tr>
@@ -248,3 +248,6 @@ python scripts/package_release.py --destination dist
 解读结果前，请阅读 [methodology.md](./references/methodology.md)、[data_guide.md](./references/data_guide.md) 和 [source_boundary.md](./references/source_boundary.md)。
 
 退市结算证据、空头可执行性和多年度样本计划见 [ROADMAP.md](./ROADMAP.md)。
+
+
+Pandadata 兼容维护：[abgyjaguo](https://github.com/abgyjaguo)，保留原项目作者署名。
